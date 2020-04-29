@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     if (cb5.isChecked()) {
                         msg += " Vào bếp nấu ăn;";
                     }
-                    Toast.makeText(MainActivity.this, ten + "\n" + tuoi + "\n" + Vm +"\n" + msg + "\n" + ST, Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, ten + "\n" + tuoi + "\n" + Vm +"\n" + msg + " " + ST, Toast.LENGTH_LONG).show();
                 }
             }
         });
