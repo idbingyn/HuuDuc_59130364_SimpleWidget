@@ -9,12 +9,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Switch;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import java.security.cert.Extension;
-import java.text.MessageFormat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -60,9 +55,6 @@ public class MainActivity extends AppCompatActivity {
                     String c5 = cb5.getText() + "";
                     String nam = rdbNam.getText() + "";
                     String nu = rdbNu.getText() + "";
-                    ten = ten.trim();
-                    tuoi = tuoi.trim();
-                    ST = ST.trim();
                     String Vm = "Giới tính: ";
                     if (rdbNam.isChecked()) {
                         Vm += "Nam ";
